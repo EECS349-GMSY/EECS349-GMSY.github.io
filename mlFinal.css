@@ -49,12 +49,15 @@ h2 {
 h3{
 	padding: 10px 50px;
 	color: #292c73;
+	margin-top: 0px;
+	margin-bottom: 0px;
 	font-family: 'Merriweather', sans-serif;
 }
 
 p {
     float: center;
-    padding: 10px 50px;
+    margin-top: 0px;
+    padding: 0px 0px 13px 50px;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -63,10 +66,32 @@ p {
 	background-image: url("HCSP.jpg");
 }
 
-#heading{
-	font-size: 13;
-	padding: 3px 50px;
+#footer{		
+	display: inline;
+	float: left;
 }
 
+
+@media screen and (min-width: 690px) {
+	.footer_content{
+		font-size: 13;
+		padding: 3px 50px;
+		font-family: 'Raleway', sans-serif;
+		display: inline;
+		padding: 0px 0px 30px 50px;
+	}
+}
+
+@media screen and (max-width: 690px) {
+	.footer_content{
+		font-size: 13;
+		padding: 3px 50px;
+		font-family: 'Raleway', sans-serif;
+		padding: 0px 0px 20px 50px;
+	}
+}
+
+a:link    {color:#3b41bf; background-color:transparent; text-decoration:none}
+a:visited {color:#3b41bf; background-color:transparent; text-decoration:none}
 
 
