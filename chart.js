@@ -52,7 +52,7 @@ var chart = AmCharts.makeChart("chartdiv", {
         "type": "column",
         "valueField": "DataSet 1"
     }, {
-        "balloonText": "Accuracy of [[category]] on DataSet 1: <b>[[value]]</b>",
+        "balloonText": "Accuracy of [[category]] on DataSet 2: <b>[[value]]</b>",
         "fillAlphas": 0.9,
         "lineAlpha": 0.2,
         "title": "DataSet 2",
@@ -67,7 +67,10 @@ var chart = AmCharts.makeChart("chartdiv", {
         "gridPosition": "start"
     },
     "export": {
-    	"enabled": true
-     }
-
+	"enabled": true
+     },
+    "legend": {
+    "useGraphSettings": true,
+    "position": "right"
+  },
 });
