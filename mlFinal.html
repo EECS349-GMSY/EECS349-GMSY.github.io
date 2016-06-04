@@ -27,8 +27,50 @@
 
        </p>
     <h3> The Solution </h3>
-       <p> Our goal was to write a ML algorithm that would estimate the number of people at the gym at a given time in the future. This would be allow people to make a more informed decision about whether to go to the gym or not, based on their specific needs.
-       </p>
+        <p> 
+          Our goal was to write a ML algorithm that would estimate the number of people at the gym at a given time in the future. This would be allow people to make a more informed decision about whether to go to the gym or not, based on their specific needs.
+
+          We narrowed the main factors affecting the number of people at the gym to the following:
+        </p>
+        
+        <div id="attributes_list">
+        <ul>
+          <li>
+          Weather Data Attributes
+          <ol>
+            <li>Air Temp[F]</li>
+            <li>Wind Speed[mph]</li>
+            <li>Precipitation</li>
+            <li>Rel Humidity</li>
+            <li>Sky Cover 1</li>
+            <li>Sky Cover 2</li>
+            <li>Sky Cover 3</li>
+          </ol>
+        </li>
+          <li>
+          Gym Data Attributes
+          <ol>
+            <li>Year</li>
+            <li>Month</li>
+            <li>Day</li>
+            <li>Hour</li>
+            <li>Minute</li>
+          </ol>
+          </li>
+          <li>
+          Quarter Attributes
+          <ol>
+            <li>Quarter(Fall/Winter/Spring/Summer)</li>
+            <li>Percentage through quarter</li>
+          </ol> 
+        </ul>
+      </div>
+      
+      <p>
+        After acquiring the above data, we wrote a python script to compile it into a .csv file that Weka could interpret. We then entered the training/testing phase where we iteratively found the best format for our .csv file.
+      </p>
+
+
     <h3> Testing and Training </h3>
        <p> describe how you tested and trained it (what your dataset was, how you measured success) 
        </p>

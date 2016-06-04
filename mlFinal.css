@@ -49,6 +49,14 @@ p {
     padding: 0px 0px 13px 50px;
     font-family: 'Raleway', sans-serif;
 }
+#attributes_list {
+    float: center;
+    margin-top: 0px;
+    font-size: 1.12em;
+    padding: 0px 0px 13px 30px;
+    font-family: 'Raleway', sans-serif;
+}
+
 
 #header_image{
 	height: 330px;
