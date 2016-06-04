@@ -32,7 +32,7 @@ var chart = AmCharts.makeChart("chartdiv", {
     }, {
         "Algorithm": "MultilayerPerceptron",
         "DataSet 1": 70.9163,
-        "DataSet 2": 0
+        "DataSet 2": 71.0531
     }, {
         "Algorithm":"SimpleLogistic",
         "DataSet 1": 66.437,
