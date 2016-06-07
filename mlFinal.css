@@ -1,5 +1,5 @@
 body {
-    background-color: #f8f2ed;
+    background-color: #ffffff;
     
 }
 
@@ -92,7 +92,8 @@ a:link    {color:#3b41bf; background-color:transparent; text-decoration:none}
 a:visited {color:#3b41bf; background-color:transparent; text-decoration:none}
 
 #chartdiv {
-	width: 100%;
+	width: 85%;
+	margin: auto;
 	height: 500px;
 	font-size: 11px;
 }

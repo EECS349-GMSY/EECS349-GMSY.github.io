@@ -64,7 +64,8 @@ var chart = AmCharts.makeChart("chartdiv", {
     "plotAreaFillAlphas": 0.1,
     "categoryField": "Algorithm",
     "categoryAxis": {
-        "gridPosition": "start"
+        "gridPosition": "start",
+        "labelRotation": 45
     },
     "export": {
 	"enabled": true
