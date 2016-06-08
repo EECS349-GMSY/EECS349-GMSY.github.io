@@ -3,40 +3,40 @@ var chart = AmCharts.makeChart("chartdiv", {
     "type": "serial",
     "dataProvider": [{
         "Algorithm": "ZeroR",
-        "DataSet 1": 61.374,
-        "DataSet 2": 48.2573
+        "Nominal With Zeroes": 61.374,
+        "Nominal Without Zeroes": 48.2573
     }, {
         "Algorithm": "J48",
-        "DataSet 1": 82.0617,
-        "DataSet 2": 77.7506
+        "Nominal With Zeroes": 82.0617,
+        "Nominal Without Zeroes": 77.7506
     }, {
         "Algorithm": "J48 Graft",
-        "DataSet 1": 82.1532,
-        "DataSet 2": 77.7506
+        "Nominal With Zeroes": 82.1532,
+        "Nominal Without Zeroes": 77.7506
     }, {
         "Algorithm": "IB1",
-        "DataSet 1": 81.668,
-        "DataSet 2": 75.0848
+        "Nominal With Zeroes": 81.668,
+        "Nominal Without Zeroes": 75.0848
     }, {
         "Algorithm": "IBk",
-        "DataSet 1": 81.668,
-        "DataSet 2": 75.0848
+        "Nominal With Zeroes": 81.668,
+        "Nominal Without Zeroes": 75.0848
     }, {
         "Algorithm": "KStar",
-        "DataSet 1": 83.215,
-        "DataSet 2": 76.8557
+        "Nominal With Zeroes": 83.215,
+        "Nominal Without Zeroes": 76.8557
     }, {
         "Algorithm": "NaiveBayes",
-        "DataSet 1": 69.6224,
-        "DataSet 2": 63.4326
+        "Nominal With Zeroes": 69.6224,
+        "Nominal Without Zeroes": 63.4326
     }, {
         "Algorithm": "MultilayerPerceptron",
-        "DataSet 1": 70.9163,
-        "DataSet 2": 71.0531
+        "Nominal With Zeroes": 70.9163,
+        "Nominal Without Zeroes": 71.0531
     }, {
         "Algorithm":"SimpleLogistic",
-        "DataSet 1": 66.437,
-        "DataSet 2": 63.4891
+        "Nominal With Zeroes": 66.437,
+        "Nominal Without Zeroes": 63.4891
     }],
     "valueAxes": [{
         "unit": "%",
@@ -45,21 +45,21 @@ var chart = AmCharts.makeChart("chartdiv", {
     }],
     "startDuration": 1,
     "graphs": [{
-        "balloonText": "Accuracy of [[category]] on DataSet 1: <b>[[value]]</b>",
+        "balloonText": "Accuracy of [[category]] on Nominal With Zeroes: <b>[[value]]</b>",
         "fillAlphas": 0.9,
         "lineAlpha": 0.2,
-        "title": "DataSet 1",
+        "title": "Nominal With Zeroes",
         "type": "column",
-        "valueField": "DataSet 1"
+        "valueField": "Nominal With Zeroes"
     }, {
-        "balloonText": "Accuracy of [[category]] on DataSet 2: <b>[[value]]</b>",
+        "balloonText": "Accuracy of [[category]] on Nominal Without Zeroes: <b>[[value]]</b>",
         "fillAlphas": 0.9,
         "lineAlpha": 0.2,
-        "title": "DataSet 2",
+        "title": "Nominal Without Zeroes",
         "type": "column",
         "clustered":false,
         "columnWidth":0.5,
-        "valueField": "DataSet 2"
+        "valueField": "Nominal Without Zeroes"
     }],
     "plotAreaFillAlphas": 0.1,
     "categoryField": "Algorithm",

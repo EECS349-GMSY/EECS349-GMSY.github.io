@@ -1,12 +1,12 @@
 body {
     background-color: #ffffff;
-    
+
 }
 
 h1 {
 	font-size: 60;
 	width: 100%;
-	height: 30; 
+	height: 30;
 	display:inline-block;
 	text-align: center;
 	color: #f8f2ed;
@@ -26,7 +26,7 @@ h2 {
 }
 
 #text_background{
-	background-color: #292c73;  
+	background-color: #292c73;
 	display:inline-block;
 	margin-top: 90px;
 	width: 100%;
@@ -63,9 +63,17 @@ p {
 	background-image: url("HCSP.jpg");
 }
 
-#footer{		
+#footer{
 	display: inline;
 	float: left;
+  position: fixed;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color: #292c73;
+  color: #FFFFFF;
+  padding-top: .5em;
+  padding-bottom: .2em;
 }
 
 
@@ -76,6 +84,7 @@ p {
 		font-family: 'Raleway', sans-serif;
 		display: inline;
 		padding: 0px 0px 30px 50px;
+    color: #FFFFFF;
 	}
 }
 
@@ -85,11 +94,12 @@ p {
 		padding: 3px 50px;
 		font-family: 'Raleway', sans-serif;
 		padding: 0px 0px 20px 50px;
+    color: #FFFFFF;
 	}
 }
 
-a:link    {color:#3b41bf; background-color:transparent; text-decoration:none}
-a:visited {color:#3b41bf; background-color:transparent; text-decoration:none}
+a:link    {color:#FFFFFF; background-color:transparent; text-decoration:none}
+a:visited {color:#FFFFFF; background-color:transparent; text-decoration:none}
 
 #chartdiv {
 	width: 85%;
@@ -97,5 +107,3 @@ a:visited {color:#3b41bf; background-color:transparent; text-decoration:none}
 	height: 500px;
 	font-size: 11px;
 }
-
-
